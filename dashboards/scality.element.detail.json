@@ -1,0 +1,93 @@
+{
+  "dashboard" : {
+    "name" : "Scality Element Detail",
+    "description" : null,
+    "layout" : null,
+    "properties" : {
+      "timeRangeDuration" : "14400",
+      "gridstackContents" : "[{\"id\":\"8cfc9295-a97c-4b1b-81bf-047245423f3d\",\"x\":0,\"y\":8,\"width\":12,\"height\":8},{\"id\":\"e609ebed-eb8c-4308-b006-16d051d5275c\",\"x\":3,\"y\":0,\"width\":9,\"height\":8},{\"id\":\"f39acfad-8930-4dab-8fed-153137b29230\",\"x\":0,\"y\":0,\"width\":3,\"height\":8}]",
+      "refreshIntervalSeconds" : "300",
+      "wrap" : "true"
+    },
+    "widgets" : [ {
+      "id" : "8cfc9295-a97c-4b1b-81bf-047245423f3d",
+      "name" : "Bandwidth",
+      "description" : null,
+      "widgetType" : "multi-metric-time-series",
+      "properties" : {
+        "showElementTotal" : "true",
+        "selectedAttributes" : "[]",
+        "elementScopeTags" : "[]",
+        "useElementNameContains" : "false",
+        "useAllElementScopeTags" : "true",
+        "elementScopeTypes" : "[]",
+        "metricLimit" : "10",
+        "useAllMetricScopeTags" : "true",
+        "metricUnit" : "Bps",
+        "showArea" : "false",
+        "metricAggs" : "[]",
+        "elementScopeIds" : "[\"c8fc3d0e-f84c-30dc-820c-e0e8f976e2ff\"]",
+        "elementScopeAttributes" : "[]",
+        "elementNameContains" : "",
+        "showHighest" : "true",
+        "metricScopeTags" : "[]",
+        "metrics" : "[{\"fqn\":\"operations.put.bandwidth\",\"aggFns\":[\"avg\"]},{\"fqn\":\"operations.get.bandwidth\",\"aggFns\":[\"avg\"]}]",
+        "selectedTab" : "table"
+      }
+    }, {
+      "id" : "e609ebed-eb8c-4308-b006-16d051d5275c",
+      "name" : "Events",
+      "description" : null,
+      "widgetType" : "event-ticker",
+      "properties" : {
+        "showElementTotal" : "true",
+        "selectedAttributes" : "[]",
+        "elementScopeTags" : "[]",
+        "useElementNameContains" : "false",
+        "useAllElementScopeTags" : "true",
+        "elementScopeTypes" : "[]",
+        "metricLimit" : "10",
+        "useAllMetricScopeTags" : "true",
+        "showArea" : "false",
+        "metricAggs" : "[]",
+        "elementScopeIds" : "[\"c8fc3d0e-f84c-30dc-820c-e0e8f976e2ff\"]",
+        "elementScopeAttributes" : "[]",
+        "elementNameContains" : "",
+        "showHighest" : "true",
+        "metricScopeTags" : "[]",
+        "metrics" : "[]",
+        "selectedTab" : "table"
+      }
+    }, {
+      "id" : "f39acfad-8930-4dab-8fed-153137b29230",
+      "name" : "Storage Usage",
+      "description" : null,
+      "widgetType" : "metric-status",
+      "properties" : {
+        "visualization" : "gauge",
+        "showElementTotal" : "true",
+        "selectedAttributes" : "[]",
+        "elementScopeTags" : "[]",
+        "useElementNameContains" : "true",
+        "useAllElementScopeTags" : "true",
+        "element_id" : "c8fc3d0e-f84c-30dc-820c-e0e8f976e2ff",
+        "elementScopeTypes" : "[]",
+        "metricLimit" : "10",
+        "useAllMetricScopeTags" : "true",
+        "element_fqn" : "bios-backup-data",
+        "metricUnit" : "short",
+        "showArea" : "false",
+        "metricAggs" : "[]",
+        "elementScopeIds" : "[]",
+        "elementScopeAttributes" : "[]",
+        "showHighest" : "true",
+        "metric_fqn" : "storage.percent_full",
+        "metricScopeTags" : "[]",
+        "metrics" : "[]",
+        "selectedTab" : "table"
+      }
+    } ],
+    "type" : "DEFAULT",
+    "private" : false
+  }
+}

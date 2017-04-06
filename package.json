@@ -1,0 +1,58 @@
+{
+  "id" : "netuitive.scality.light.package",
+  "version" : "1.0.0",
+  "manifest" : {
+    "name" : "Netuitive Scality Light Package",
+    "description" : "Scality Light package",
+    "author" : {
+      "name" : "Netuitive Research",
+      "email" : "research@netuitve.com"
+    },
+    "distro" : {
+      "logo" : "TBD",
+      "download" : "TBD"
+    },
+    "compatibility" : [],
+    "tags" : [ ],
+    "checksum" : null
+  },
+  "policies" : [ {
+    "data" : {
+      "file" : "policies/metrics.collection.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/storage.full.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "policies/storage.warning.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "analyticConfigurations" : [ {
+    "data" : {
+      "file" : "analyticConfigurations/ace-scality_ring_correlation.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ],
+  "dashboards" : [ {
+    "data" : {
+      "file" : "dashboards/scality.rings.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  }, {
+    "data" : {
+      "file" : "dashboards/scality.element.detail.json",
+      "encoding" : "application/json",
+      "content" : null
+    }
+  } ]
+}
