@@ -1,4 +1,4 @@
-netuitive.scality.light.package 1.0.0
+netuitive.scality.packages.light 1.0.0
 
 ## Release History
 

@@ -1,5 +1,5 @@
 {
-  "id" : "netuitive.scality.light.package",
+  "id" : "netuitive.scality.packages.light",
   "version" : "1.0.0",
   "manifest" : {
     "name" : "Netuitive Scality Light Package",
@@ -10,7 +10,7 @@
     },
     "distro" : {
       "logo" : "TBD",
-      "download" : "TBD"
+      "download" : "https://github.com/netuitive-community-packages/netuitive-scality-packages-light/archive/master.zip"
     },
     "compatibility" : [ "CUSTOM:scality_light" ],
     "tags" : [ ],
