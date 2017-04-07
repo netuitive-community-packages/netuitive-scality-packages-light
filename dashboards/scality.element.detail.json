@@ -87,7 +87,7 @@
         "selectedTab" : "table"
       }
     } ],
-    "type" : "DEFAULT",
+    "type" : "RING",
     "private" : false
   }
 }
