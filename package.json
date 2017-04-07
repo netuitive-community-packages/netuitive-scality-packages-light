@@ -12,7 +12,7 @@
       "logo" : "TBD",
       "download" : "TBD"
     },
-    "compatibility" : [],
+    "compatibility" : [ "CUSTOM:scality_light" ],
     "tags" : [ ],
     "checksum" : null
   },
