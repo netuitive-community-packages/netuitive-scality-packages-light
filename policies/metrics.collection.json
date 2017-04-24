@@ -27,7 +27,7 @@
     "eventConditions" : [ ],
     "actions" : [ {
       "type" : "event",
-      "category" : 3
+      "category" : 2
     } ],
     "enabled" : true,
     "deleted" : false
