@@ -1,6 +1,11 @@
-netuitive.scality.packages.light 1.0.0
+netuitive.scality.packages.light
 
 ## Release History
+
+### Version 1.0.1
+
+* Reducing 'Metrics Collection' policy to Warning.
+* Revising 'Scality Rings' Dashboard layout.
 
 ### Version 1.0.0
 
