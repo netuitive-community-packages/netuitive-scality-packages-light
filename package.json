@@ -12,7 +12,7 @@
       "logo" : "TBD",
       "download" : "https://github.com/netuitive-community-packages/netuitive-scality-packages-light/archive/master.zip"
     },
-    "compatibility" : [ "" ],
+    "compatibility" : [ "CUSTOM:scality_light" ],
     "tags" : [ ],
     "checksum" : null
   },
