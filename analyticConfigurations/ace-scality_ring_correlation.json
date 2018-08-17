@@ -1,31 +1,32 @@
 {
-  "analyticConfiguration" : {
-    "type" : "ACE",
-    "name" : "Scality_Ring_Correlation",
-    "scope" : {
-      "elementName" : null,
-      "elementType" : "RING",
-      "elementTags" : null,
-      "metricMatches" : null
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "storage.volume_stored",
+        "properties": {
+          "baseline": true,
+          "correlation": true
+        }
+      },
+      {
+        "match": "storage.volume_uniq",
+        "properties": {
+          "baseline": true,
+          "correlation": true
+        }
+      },
+      {
+        "match": "storage.volume_used",
+        "properties": {
+          "baseline": true,
+          "correlation": true
+        }
+      }
+    ],
+    "name": "Scality_Ring_Correlation",
+    "scope": {
+      "elementType": "RING"
     },
-    "metrics" : [ {
-      "match" : "storage.volume_stored",
-      "properties" : {
-        "baseline" : true,
-        "correlation" : true
-      }
-    }, {
-      "match" : "storage.volume_uniq",
-      "properties" : {
-        "baseline" : true,
-        "correlation" : true
-      }
-    }, {
-      "match" : "storage.volume_used",
-      "properties" : {
-        "baseline" : true,
-        "correlation" : true
-      }
-    } ]
+    "type": "ACE"
   }
 }
